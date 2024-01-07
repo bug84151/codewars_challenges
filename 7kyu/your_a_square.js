@@ -1,9 +1,13 @@
-let n = 0
-
-for (let i = 0; i < n; i++){
-    if (n % i == 0 && i * i == n) {
-        console.log(true);
-    } else{
-        console.log(false);
+var isSquare = function (n) {
+  if (n == 0) {
+    return true;
+  } else if (n < 0) {
+    return false;
+  }
+  for (let i = 0; i < n; i++) {
+    if (i ** 2 == n) {
+      return true;
     }
-}
+  }
+  return false;
+};
