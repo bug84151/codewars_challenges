@@ -1,0 +1,3 @@
+function numberProperty(n){
+  return [isPrime(n), n % 2 == 0, n % 10 == 0];
+};
