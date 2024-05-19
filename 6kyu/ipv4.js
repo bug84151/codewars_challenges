@@ -18,12 +18,12 @@ if (ipArray.length == 4 && isValid == true) {
     console.log(isValid);
     }
   
-    // for (let i = 0; i < ipArray.length; i++) {
-    //   if (ipArray.length != 4) {
-    //     console.log("false");
-    //   } else if (ipArray[i] > 255) {
-    //       console.log("false");
-    //   } else (
-    //       console.log("true")
-    //   )
-    // }
+    for (let i = 0; i < ipArray.length; i++) {
+      if (ipArray.length != 4) {
+        console.log("false");
+      } else if (ipArray[i] > 255) {
+          console.log("false");
+      } else (
+          console.log("true")
+      )
+    }
